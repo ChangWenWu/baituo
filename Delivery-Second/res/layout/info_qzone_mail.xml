@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+	android:orientation="vertical" 
+	android:id="@+id/info_qzone_mail" 
+	android:background="@drawable/shape_bg" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:layout_marginLeft="10.0dip" 
+	android:layout_marginTop="10.0dip" 
+	android:layout_marginRight="10.0dip"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+    <LinearLayout 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:id="@+id/order" 
+    android:onClick="onorder"
+  
+    android:layout_width="fill_parent" 
+    android:layout_height="50.0dip">
+    
+        <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10.0dip" 
+        android:src="@drawable/p01" />
+        
+        <TextView 
+        android:textSize="18.0sp" 
+        android:textColor="#ff545454" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10.0dip"  
+        android:layout_marginLeft="10.0dip" 
+        android:text="我配送的订单" 
+        android:layout_weight="1.0" />
+        
+        <ImageView 
+        android:layout_width="12.0dip" 
+        android:layout_height="12.0dip" 
+        android:layout_marginEnd="10.0dip" 
+        android:layout_marginRight="10.0dip" 
+        android:src="@drawable/into_icon" />
+        
+    </LinearLayout>
+    
+    <View 
+    android:background="@drawable/shape_line" 
+    android:layout_width="fill_parent" 
+    android:layout_height="1.0px" />
+    
+    <LinearLayout 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:id="@+id/evaluate" 
+    android:onClick="onevaluate"
+    android:layout_width="fill_parent" 
+    android:layout_height="50.0dip">
+    
+        <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+         android:layout_marginStart="10.0dip" 
+        android:layout_marginLeft="10.0dip" 
+        android:src="@drawable/p02"/>
+        
+        <TextView 
+        android:textSize="18.0sp"
+        android:textColor="#ff545454" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content" 
+         android:layout_marginStart="10.0dip" 
+        android:layout_marginLeft="10.0dip" 
+        android:text="订单服务评价" 
+        android:layout_weight="1.0" />
+        
+        <ImageView 
+        android:layout_width="12.0dip" 
+        android:layout_height="12.0dip" 
+         android:layout_marginEnd="10.0dip" 
+        android:layout_marginRight="10.0dip" 
+        android:src="@drawable/into_icon" />
+        
+    </LinearLayout>
+    
+    <View
+    android:background="@drawable/shape_line" 
+    android:layout_width="fill_parent" 
+    android:layout_height="1.0px" />
+    
+     <LinearLayout 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:id="@+id/withdraw" 
+    android:onClick="onwithdraw"	
+    android:layout_width="fill_parent" 
+    android:layout_height="50.0dip">
+    
+        <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+         android:layout_marginStart="10.0dip" 
+        android:layout_marginLeft="10.0dip" 
+        android:src="@drawable/p03"/>
+        
+        <TextView 
+        android:textSize="18.0sp"
+        android:textColor="#ff545454" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content" 
+         android:layout_marginStart="10.0dip" 
+        android:layout_marginLeft="10.0dip" 
+        android:text="提现" 
+        android:layout_weight="1.0" />
+        
+        <ImageView 
+        android:layout_width="12.0dip" 
+        android:layout_height="12.0dip" 
+         android:layout_marginEnd="10.0dip" 
+        android:layout_marginRight="10.0dip" 
+        android:src="@drawable/into_icon" />
+        
+    </LinearLayout>
+    
+        
+</LinearLayout>
+

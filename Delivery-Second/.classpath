@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="E:/eclipse-standard-kepler-SR2-win32-x86_64/java/老罗开发视频http协议开发包/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse-standard-kepler-SR2-win32-x86_64/java/老罗开发视频http协议开发包/httpclient-cache-4.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse-standard-kepler-SR2-win32-x86_64/java/老罗开发视频http协议开发包/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse-standard-kepler-SR2-win32-x86_64/java/老罗开发视频http协议开发包/httpmime-4.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse-standard-kepler-SR2-win32-x86_64/java/老罗开发视频http协议开发包/kxml2-2.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse-standard-kepler-SR2-win32-x86_64/java/老罗开发视频http协议开发包/kxml2-2.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/gson-2.2.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

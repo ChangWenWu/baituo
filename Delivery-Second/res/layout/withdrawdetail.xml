@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 登录界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+    
+<!-- 头部导航 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/v5_0_1_flipper_head_blue_background"
+        android:orientation="horizontal" >
+        
+          <ImageButton
+            android:id="@+id/ib_return"
+            android:layout_width="54dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/v5_0_1_flipper_head_back" />
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="24dip"
+            android:layout_gravity="center"
+            android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dip"
+            android:text="提现"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        
+    </LinearLayout>a
+    
+    
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dip"
+		android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="0">
+         
+        
+        <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_margin="8dip"
+                    
+                    android:background="#20333333" />
+        <TextView 
+            android:id="@+id/tv_price"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="18sp"
+             android:layout_marginLeft="4dip"
+             android:textColor="@android:color/black"
+            android:text="您要提现300"/>
+         <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_margin="8dip"
+                    
+                    android:background="#20333333" />
+         <TextView 
+              android:id="@+id/tv_tbao"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="18sp"
+             android:layout_marginLeft="4dip"
+             android:textColor="@android:color/black"
+            android:text="提现支付宝账号为18844547428"/>
+         <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_margin="8dip"
+                    
+                    android:background="#20333333" />
+         <TextView 
+              android:id="@+id/tv_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="18sp"
+             android:layout_marginLeft="4dip"
+             android:textColor="@android:color/black"
+            android:text="提现支付宝用户姓名为：郭刚强"/>
+          
+         
+         <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_margin="8dip"
+                    
+                    android:background="#20333333" />
+        <LinearLayout android:layout_width="fill_parent"
+	            android:layout_height="40dip"
+	            android:layout_marginTop="10dip"
+	            android:gravity="center">
+	        <Button android:id="@+id/bt_withdraw"
+	           android:layout_width="fill_parent"
+	            android:layout_height="50dip"	           
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:layout_margin="20dip"	            
+	            android:background="@drawable/v5_0_1_guide_button_blue_background"
+	            android:textColor="@color/white"
+	            android:clickable="true"
+	            android:text="提交"
+	            
+	           />
+	</LinearLayout>
+        
+    
+    </LinearLayout>
+
+
+</LinearLayout>

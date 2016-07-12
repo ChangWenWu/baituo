@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical"
+    android:background="#FFFFFF"  >
+	
+    
+     <!-- 头部导航 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/v5_0_1_flipper_head_blue_background"
+        android:orientation="horizontal" 
+        android:gravity="center"
+        >
+          
+
+        
+		
+         
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:paddingLeft="8dip"
+            android:text="外卖订单动态"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        
+    </LinearLayout>
+    
+    <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_margin="8dip"
+                    
+                    android:background="#20333333" />
+    <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="200dip"
+           android:background="#FFFFFF" 
+            android:layout_margin="20dip"
+            android:gravity="center">
+	        
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:text="亲，欢迎您成为我们大家庭的一员，我们会在24小时内进行审核，向您发送配送资格，您现在可以先浏览一下抢单界面熟悉一下啦。我们属于初期创业团队，如果您认同我们，想要和我们进行深度合作，可以加群000000，进行了解，我们欢迎你的加入，一起创业，一起奋斗，一起成功。
+"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+            
+        </LinearLayout>
+        
+    <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_margin="8dip"
+                    
+                    android:background="#20333333" />
+    
+	
+    <LinearLayout android:layout_width="fill_parent"
+	            android:layout_height="40dip"
+	            android:layout_marginTop="10dip"
+	            android:gravity="center">
+	        <Button android:id="@+id/btn_check"
+	           android:layout_width="fill_parent"
+	            android:layout_height="50dip"	           
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:layout_margin="20dip"	            
+	            android:background="@drawable/v5_0_1_guide_button_blue_background"
+	            android:textColor="@color/white"
+	            android:clickable="true"
+	            android:text="加入我们"
+	            
+	           />
+	</LinearLayout>
+    
+</LinearLayout>

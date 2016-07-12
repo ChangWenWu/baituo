@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_bg">#fff0f3f6</color>
+    
+    <color name="title_bg">#ff54acea</color>
+
+    <color name="button_unselected">#ff54acea</color>
+    <color name="button_selected">#ff419de4</color>
+
+    <color name="info_panel_bg">#ffeeeeee</color>
+     
+	<color name="chat_title_name">#ffffffff</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="traffic_data">#ff666666</color>
+    <color name="defult">#F5F5F5</color>
+    <color name="click">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="popupwindow_text_color">#FF27a6f5</color>
+    <color name="black">#000000</color>
+    <color name="v5_0_1_flipper_head_title_wrapper_black_transparent">#AA000000</color>
+    <color name="transparent_white">#20ffffff</color>
+    <color name="transparent_black">#33000000</color>
+    <color name="publish_poi_place">#ff005092</color>
+    <color name="link_color">#ff005092</color>
+    <color name="photos_popup_menu_item_background">#00000000</color>
+    <color name="photos_popup_menu_item_background_pressed">#ff005092</color>
+    <color name="white">#FFFFFF</color>
+    <color name="galy">#ff333333</color>
+    <color name="photos_popup_menu_item_text">#80333333</color>
+    <color name="photos_popup_menu_item_text_pressed">#FFFFFF</color>
+    <color name="news_pressed">#ffe5e5e5</color>
+    <color name="friend_separator_item_bg">#ffdedede</color>
+	<color name="friend_item_pressed">#80dedede</color>
+</resources>

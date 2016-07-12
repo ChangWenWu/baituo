@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/Theme.Apptheme" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="请选择公寓" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    
+    <TextView 
+	    android:id="@+id/adpicker2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="25dp"
+	    android:text="请选择公寓号">
+	    </TextView>
+
+   	<Spinner
+   	    android:id="@+id/spinner2"
+   	    android:layout_width="match_parent"
+        android:layout_height="70dp"
+   	     />
+
+    <EditText
+        android:id="@+id/roominput"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="30dip"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:hint="请输入房间号"
+        android:maxLength="30"
+        android:paddingRight="2dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorHighlight="#7e4d84" />
+
+    <EditText
+        android:id="@+id/telinput"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="30dip"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:hint="联系方式"
+        android:maxLength="30"
+        android:paddingRight="2dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorHighlight="#7e4d84" />
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="286dp"
+        android:layout_height="45dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bg_border1"
+        android:gravity="center"
+        android:text="发单" />
+
+</LinearLayout>

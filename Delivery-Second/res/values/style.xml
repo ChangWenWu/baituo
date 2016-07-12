@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/skinpic_green</item>
+    </style>
+    
+     <style name="CustomWindowTitleText" >  
+          <item name="android:textSize">20dip</item>  
+          <item name="android:textColor">#FFffffff</item>  
+          <item name="android:paddingLeft">10dp</item>
+     </style> 
+    
+    
+    <style name="customCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_checkbox</item>
+    </style>
+    
+<!--    <style name="customRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">-->
+<!--        <item name="android:button">@drawable/selector_checkbox</item>-->
+<!--    </style>-->
+    
+    <style name="customListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarSize">10.0dip</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+        <item name="android:listSelector">@drawable/selector_list</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+    
+<!--    <style name="customEditText" parent="@android:style/Widget.EditText">-->
+<!--        <item name="android:background">@drawable/selector_edit_text</item>-->
+<!--    </style>-->
+<!--    -->
+<!--    <style name="customAutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">-->
+<!--        <item name="android:background">@drawable/selector_edit_text</item>-->
+<!--    </style>-->
+<!--    -->
+<!--    <style name="customExpandableListView" parent="@android:style/Widget.ExpandableListView">-->
+<!--        <item name="android:scrollbarSize">10.0dip</item>-->
+<!--        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>-->
+<!--        <item name="android:persistentDrawingCache">all</item>-->
+<!--        <item name="android:alwaysDrawnWithCache">true</item>-->
+<!--        <item name="android:listSelector">@drawable/selector_list</item>-->
+<!--        <item name="android:scrollingCache">true</item>-->
+<!--        <item name="android:cacheColorHint">@color/window_bg</item>-->
+<!--        <item name="android:childDivider">@drawable/shape_line</item>-->
+<!--        <item name="android:divider">@null</item>-->
+<!--        <item name="android:dividerHeight">1.0px</item>-->
+<!--    </style>-->
+    
+    <style name="Default.NoTitleBar" parent="@android:style/Theme.Light.NoTitleBar">
+		<item name="android:textColorPrimaryInverse">@android:color/black</item>   	
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">42.0dip</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitleText</item> 
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:checkboxStyle">@style/customCheckBox</item>
+        <item name="android:listViewStyle">@style/customListView</item>
+        
+<!--        <item name="android:autoCompleteTextViewStyle">@style/customAutoCompleteTextView</item>-->
+<!--        <item name="android:editTextStyle">@style/customEditText</item>-->
+<!--        <item name="android:expandableListViewStyle">@style/customExpandableListView</item>-->
+<!--        <item name="android:radioButtonStyle">@style/customRadioButton</item>-->
+        
+    </style>
+    
+    
+    <style name="Default" parent="@style/Default.NoTitleBar">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    
+    
+</resources>
+
+
+
+
+
+<!-- item name=android:textColorPrimaryInverse 					preference标题文本颜色	-->
+<!-- item name="android:windowBackground"						窗体背景	-->
+<!-- item name=android:windowTitleBackgroundStyle				窗体标题背景风格-->
+<!-- item name="android:windowTitleSize"  						窗体标题栏高度-->					
+<!-- item name="android:listViewStyle"							preference是一个LISTVIEW，这里设置该风格-->
+<!-- item name="android:textColorPrimary"						preference一级文本颜色-->
+<!-- item name="android:textColorSecondary"						preference二级文本颜色-->
+
+
+
+
+
+
+

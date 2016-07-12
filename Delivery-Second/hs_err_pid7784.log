@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=7784, tid=9008
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_79-b15) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.79-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000220e000):  JavaThread "Unknown thread" [_thread_in_vm, id=9008, stack(0x00000000027f0000,0x00000000028f0000)]
+
+Stack: [0x00000000027f0000,0x00000000028f0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+

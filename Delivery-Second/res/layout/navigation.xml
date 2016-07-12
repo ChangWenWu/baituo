@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Navigation" >
+
+    <LinearLayout
+        android:id="@+id/guide_bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/guide_register"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/v5_0_1_guide_button_blue_background"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="#FFFFFF"
+            android:textSize="16.0sp" />
+
+        <Button
+            android:id="@+id/guide_login"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/v5_0_1_guide_button_blue_background"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#FFFFFF"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginTop="38dp"
+        android:text="把世界送到你嘴边"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        android:text="百托"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

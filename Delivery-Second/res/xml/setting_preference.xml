@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <PreferenceCategory android:title="消息通知"> 
+        <CheckBoxPreference android:title="开启声音" android:key="开启声音" android:summary="当有新消息通知时播放声音提示" android:defaultValue="true" />
+        <CheckBoxPreference android:title="开启震动" android:key="开启震动" android:summary="当有新消息通知时震动提示" android:defaultValue="true" />    
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="图片接收">	
+        <CheckBoxPreference android:title="自动接收图片" android:key="自动接收图片" android:summary="GPRS,3G网络下自动接收并显示图片" android:defaultValue="false" />       
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="显示" >  
+        <CheckBoxPreference android:title="开启横屏模式" android:key="开启横屏模式" android:defaultValue="true" />
+        <CheckBoxPreference android:title="显示系统栏挂机图标" android:key="显示系统栏挂机图标" android:summary="后台运行时，在系统栏显示程序图标" android:defaultValue="true" />
+        <PreferenceScreen android:title="更换皮肤">
+            <intent android:targetPackage="com.genius.demo" android:targetClass="com.genius.demo.SkinActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="辅助功能">
+        <CheckBoxPreference android:title="开启截屏功能" android:key="开启截屏功能" android:summary="摇晃手机即可截图（在QQ外截图需root权限）" android:defaultValue="false" />
+        <CheckBoxPreference android:title="上报我的地理位置" android:key="上报我的地理位置" android:summary="上报地理位置信息以便附近的人能够找到我" android:defaultValue="false" />
+        <PreferenceScreen android:title="查看流量统计" android:summary="使用手机QQ所产生的上行和下行流量">
+            <intent android:targetPackage="com.genius.demo" android:targetClass="com.genius.demo.TrafficStatActivity" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="帮助">
+        <PreferenceScreen android:title="反馈建议" android:summary="反馈建议">
+            <intent android:action="android.intent.action.VIEW" android:data="http://wap.3g.qq.com/g/s?aid=wapsupport&amp;amp;fid=647" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="好友设置" android:summary="好友设置">
+            <intent android:targetPackage="com.genius.demo" android:targetClass="com.genius.demo.FriendInfoActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

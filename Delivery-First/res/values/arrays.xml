@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="adress">
+		<item>北苑</item>
+		<item>南苑</item>
+		<item>经信</item>
+		<item>文苑</item>
+		<item>经信教学楼</item>
+		<item>第三教学楼</item>
+		<item>逸夫教学楼</item>
+	</string-array>
+ </resources>
+

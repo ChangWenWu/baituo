@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+    </style>
+    <style name="progress_bar_style" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_bar</item>
+    </style>
+    <style name="text_black_mid" parent="@style/text_black">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="text_black">
+        <item name="android:textColor">@drawable/default_text_color</item>
+    </style>
+
+    <style name="text_black_small" parent="@style/text_black">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+	
+</resources>

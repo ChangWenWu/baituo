@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/v5_0_1_photo_edit_quality_high" />
+    <item android:state_selected="true" android:drawable="@drawable/v5_0_1_photo_edit_quality_high_pressed" />
+</selector>

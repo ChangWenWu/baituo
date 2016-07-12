@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="quyu">
+        <item>和平校区</item>
+    </string-array>
+    <string-array name="zongjia">
+        <item>不限</item>
+        <item>一号公寓</item>
+        <item>二号公寓</item>
+        <item>三号公寓</item>
+       
+    </string-array>
+    <string-array name="huxing">
+        <item>不限</item>
+        <item>一层</item>
+        <item>二层</item>
+        <item>三层</item>
+        <item>四层</item>
+        <item>五层</item>
+    </string-array>
+    <string-array name="nanxi">
+        <item>全南溪</item>
+        <item>南溪镇</item>
+    </string-array>
+    <string-array name="cuiping">
+        <item>全翠屏</item>
+        <item>老城区</item>
+        <item>南岸西区</item>
+        <item>南岸东区</item>
+        <item>上江北</item>
+        <item>下江北</item>
+        <item>外江路</item>
+        <item>大观楼</item>
+        <item>西郊</item>
+    </string-array>
+	
+</resources>

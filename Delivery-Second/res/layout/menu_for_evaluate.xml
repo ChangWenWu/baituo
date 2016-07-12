@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/public_menu"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="42.0dip"
+            android:layout_weight="1.0"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="位置"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:background="@color/border_gray" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="42.0dip"
+            android:layout_weight="1.0"
+           android:background="#FFFFFF"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="状态"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:background="@color/border_gray" />
+		 <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42.0dip"
+            android:layout_weight="1.0"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="评价"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+        
+    </LinearLayout>
+
+</LinearLayout>

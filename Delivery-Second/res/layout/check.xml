@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <!-- 头部导航 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/v5_0_1_flipper_head_blue_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="8dip"
+            android:text="外卖订单动态"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_margin="8dip"
+        android:background="#20333333" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_margin="20dip"
+        android:background="#FFFFFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:text="亲，为了保证我们系统安全的运行，所有加入我们的小伙伴需要提供身份证的正反面和学生证正反面，作为身份识别。
+"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_margin="8dip"
+        android:background="#20333333" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身份证正面：" />
+
+        <Button
+            android:id="@+id/pick_btn1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:clickable="true"
+            android:text="选择图片" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身份证反面：" />
+
+        <Button
+            android:id="@+id/pick_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:clickable="true"
+            android:text="选择图片" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学生证正面：" />
+
+        <Button
+            android:id="@+id/pick_btn3"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:clickable="true"
+            android:text="选择图片" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学生证反面：" />
+
+        <Button
+            android:id="@+id/pick_btn4"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:clickable="true"
+            android:text="选择图片" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_margin="8dip"
+        android:background="#20333333" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_margin="20dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/v5_0_1_guide_button_blue_background"
+            android:clickable="true"
+            android:text="加入我们"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

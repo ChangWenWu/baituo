@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <!-- 头部导航 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/v5_0_1_flipper_head_blue_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="8dip"
+            android:text="个人中心"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="#FFFFFF"
+        android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:paddingBottom="10.0dip" >
+
+            <!-- 第一个白框BEGIN -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="7.0dip"
+                android:background="@drawable/shape_bg"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="60.0dip"
+                    android:orientation="horizontal"
+                    android:padding="10.0dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingTop="4.0dip"
+                        android:src="@drawable/h001" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/et_fname"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="@+string/fname"
+                            android:textColor="@android:color/black"
+                            android:textSize="18.0sp" />
+
+                        <TextView
+                            android:id="@+id/et_tel"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.0dip"
+                            android:gravity="center_vertical"
+                            android:text="18844547428"
+                            android:textColor="#ff545454"
+                            android:textSize="14.0sp" />
+
+                        <TextView
+                            android:id="@+id/et_reg"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="注册日期：15-6-17"
+                            android:textColor="#ff545454"
+                            android:textSize="14.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+            </LinearLayout>
+            <!-- 第一个白框end -->
+
+
+            <!-- 第二个白框begin -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <include layout="@layout/info_bottom" />
+            </LinearLayout>
+            <!-- 第二个白框end -->
+
+
+            <!-- 第三个白框begin -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <include layout="@layout/info_qzone_mail" />
+            </LinearLayout>
+            <!-- 第三个白框end -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

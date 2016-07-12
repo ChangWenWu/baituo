@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/abs__ab_solid_shadow_holo" />
+    <item android:state_window_focused="false" android:drawable="@drawable/abs__btn_cab_done_default_holo_dark" />
+    <item android:state_pressed="true" android:drawable="@drawable/abs__ab_solid_shadow_holo" />
+    <item android:state_focused="true" android:drawable="@drawable/abs__ab_solid_shadow_holo" />
+    <item android:drawable="@drawable/abs__ab_solid_shadow_holo" />
+</selector>

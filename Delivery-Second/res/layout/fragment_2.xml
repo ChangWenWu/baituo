@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical"
+   android:background="#FFFFFF" >
+	
+    
+     <!-- 头部导航 -->
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/v5_0_1_flipper_head_blue_background"
+        android:orientation="horizontal" 
+        android:gravity="center"
+        >
+          
+
+        
+		
+         
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:paddingLeft="8dip"
+            android:text="外卖订单动态"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="350dip"
+            android:background="#FFFFFF"
+            android:layout_margin="20dip"
+            android:gravity="center">
+	        
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:text="亲，您是否想利用寝室的空闲时间，实现空闲时间的价值化呢?那么就加入我们把，我们可以帮您实现以下空闲时间的价值化：
+1，	当您取外卖时，顺便带上您回寝室路上需要经过公寓的外卖，我们就给您每单外卖丰厚补贴。
+2，	当您中午从公寓外面回寝室时，顺带带上您回寝室路上需要经过公寓的外卖，我们就给您每单丰厚的补贴。
+3，	当您在寝室无事可干时，您只需跑几步帮忙送一下你所在公寓的外卖，即可锻炼身体，又可获得额外收益，最重要是，工作时间随意。还等什么呢?加入我们吧。
+"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+            
+        </LinearLayout>
+	
+    <LinearLayout android:layout_width="fill_parent"
+	            android:layout_height="40dip"
+	            android:layout_marginTop="10dip"
+	            android:gravity="center">
+	        <Button android:id="@+id/btn_check"
+	           android:layout_width="fill_parent"
+	            android:layout_height="50dip"	           
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:layout_margin="20dip"	            
+	            android:background="@drawable/v5_0_1_guide_button_blue_background"
+	            android:textColor="@color/white"
+	            android:clickable="true"
+	            android:text="加入我们"
+	            android:onClick="oncheck"
+	           />
+	</LinearLayout>
+    
+    
+</LinearLayout>
