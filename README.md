@@ -7,5 +7,5 @@
 * 配送员客户端，实现外卖订单的状态切换 <br> 
 * 用户客户端，实现订单查询，抢单<br>  
 
-##ScreenCapture：<br> 
+##ScreenCapture：
 ![](https://github.com/GodWen/baituo/raw/master//image-2/ScreenCapture.png)
